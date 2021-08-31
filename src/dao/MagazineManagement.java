@@ -8,8 +8,8 @@ import java.util.List;
 import java.util.Scanner;
 
 public class MagazineManagement  {
-    Scanner scan = new Scanner (System.in);
-     List<Magazine> magazineList = new ArrayList<>();
+    public static Scanner scan = new Scanner (System.in);
+    static List<Magazine> magazineList = new ArrayList<>();
 
     public List<Magazine> getList(){
         return magazineList;
